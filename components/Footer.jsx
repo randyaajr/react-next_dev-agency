@@ -1,5 +1,6 @@
 import styles from "../styles/Footer.module.css";
-import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
           <a href="/contact" className={styles.link} passHref>
             <>
               <span className={styles.linkText}>WORK WITH US</span>
-              <Image src="/images/link.png" width="40px" height="40px" alt="" />
+              <FontAwesomeIcon icon={faLink} />
             </>
           </a>
         </h1>
