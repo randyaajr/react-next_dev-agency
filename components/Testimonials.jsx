@@ -6,7 +6,7 @@ import Image from "next/image";
 const Testimonials = () => {
   return (
     <div className={styles.container}>
-      <Design backgroundColor="#3605bbaf" top="-70vh" left="0" right="0" />
+      <Design backgroundColor="#bb05057c" top="-70vh" left="0" right="0" />
       <h1 className={styles.titleA}>Testimonials</h1>
       <div className={styles.wrapper}>
         {users.map((user) => (
